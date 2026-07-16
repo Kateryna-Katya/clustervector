@@ -30,3 +30,56 @@ height: 823px;
     margin-top: 180px;
 }    
 }
+/* How It Works */
+.how-container{
+    padding-top: 80px;
+    background-image: url("/img/how/mob.png");
+    background-repeat: no-repeat;
+    background-position: top 140px center;
+    background-size: 100% 184px;
+}
+.how-list{
+    margin-top: 230px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.how-item{
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 4px;
+}
+.how-item-title{
+font-family: "Sora", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.2;
+    text-align: center;
+    color: #3c2727;
+}
+.how-item-text{
+text-align: center;
+}
+@media only screen and (min-width: 1440px) {
+.how-container {
+        padding-top: 150px;
+        background-image: url("/img/how/desk.png");
+        background-position: top 190px center;
+        background-size: 845px 414px;
+    }
+     .how-list {
+        margin-top:30px;
+        gap: 52px;
+        width: 559px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .how-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 4px;
+    }
+}

@@ -1,3 +1,16 @@
 body{
   background: radial-gradient(50% 50% at 50% 50%, #fdf9f0 0%, #d1c7d2 100%);
+font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #3c2727;
+}
+h2{
+font-family: "Sora", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  color: #f0495a;
 }
