@@ -147,3 +147,43 @@ height: 102px;
     z-index: 1;
  }
 }
+/* Reviews */
+.reviews-list{
+    margin-top: 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.reviews-item{
+border: 1px solid #31a3c5;
+    border-radius: 20px;
+    padding: 22px;
+    width: 335px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.reviews-item-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.author{
+font-family: "Sora", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.2;
+    color: #f0495a;
+}
+@media only screen and (min-width: 1440px) {
+.reviews-list{
+flex-direction: row;
+justify-content: center;
+}
+.reviews-item{
+width: 413px;
+    height: 276px;
+}   
+}
